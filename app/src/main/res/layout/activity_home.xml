@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:id="@+id/contenedorFragmentsHome">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Perfil"
+        android:layout_width="265dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="@color/colorPrueba"
+
+        android:foreground="?attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="179dp">
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="Pito la chupa"
+            android:textColor="@color/colorSplash"
+            android:textSize="24.6sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/cambo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/ivIcono"
+            android:layout_width="94dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.586"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ovatar9" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btranking"
+        android:layout_width="96dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@+id/Perfil"
+        android:layout_toRightOf="@+id/Perfil"
+        android:background="@color/colorNegro"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="ranking"
+        android:textColor="@color/colorSplash"
+        android:textStyle="bold"
+        app:fontFamily="@font/cambo" />
+
+    <Button
+        android:id="@+id/btTest"
+        android:layout_width="77dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@+id/Perfil"
+        android:layout_toRightOf="@+id/Perfil"
+        android:background="@color/colorNegro"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="test"
+        android:textColor="@color/colorSplash"
+        android:textStyle="bold"
+        app:fontFamily="@font/cambo" />
+
+
+</RelativeLayout>

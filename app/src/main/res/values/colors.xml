@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorSplash">#ffffff</color>
+    <color name="colorTrasparante">#00FFFFFF</color>
+    <color name="colorRosao">#F1FF9F</color>
+    <color name="colorBtont">#5E98A8</color>
+    <color name="colorText">#33535C</color>#FFE6FF
+    <color name="colorNegro">#000000</color>
+    <color name="colorFondoHome">#F6EEE1</color>
+    <color name="colorPrueba">#39B8DB</color>
+    <color name="colorOro">#F8E13D</color>
+    <color name="colorPlata">#CACACA</color>
+    <color name="colorBronze">#946534</color>
+    <color name="colorOp1">#B388FF</color>
+    <color name="colorOp2">#880E4F</color>
+    <color name="colorOp3">#DA9191</color>
+    <color name="colorOp4">#928787</color>
+    <color name="colorOp5">#009688</color>
+    <color name="colorOp6">#263238</color>
+</resources>

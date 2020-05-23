@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/amita</item>
+        <item>@font/anton</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/cambo</item>
+        <item>@font/carter_one</item>
+        <item>@font/pacifico</item>
+        <item>@font/rock_salt</item>
+        <item>@font/vast_shadow</item>
+        <item>@font/waiting_for_the_sunrise</item>
+        <item>@font/wendy_one</item>
+    </array>
+</resources>

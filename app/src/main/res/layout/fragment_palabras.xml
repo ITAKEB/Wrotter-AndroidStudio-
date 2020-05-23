@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.PalabrasFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carPalabra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+
+        <TextView
+            android:id="@+id/tvPalara"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/cambo" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carDefinicion"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+
+        >
+
+        <TextView
+            android:id="@+id/tvDefinicion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text=""
+            android:textSize="20dp"
+            app:fontFamily="@font/cambo" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/btEjemplo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:foreground="?attr/selectableItemBackground"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="EJEMPLO"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/cambo"
+
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btAprendida"
+        android:layout_width="136dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/btEjemplo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/colorPrueba"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="ANTERIOR"
+        android:textColor="@color/colorSplash"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        app:fontFamily="@font/cambo" />
+
+    <Button
+        android:id="@+id/btConfusa"
+        android:layout_width="148dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/btEjemplo"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_toEndOf="@+id/btAprendida"
+        android:layout_toRightOf="@+id/btAprendida"
+        android:background="@color/colorPrueba"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="SIGUIENTE"
+        android:textColor="@color/colorSplash"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        app:fontFamily="@font/cambo" />
+
+</RelativeLayout>
